@@ -10,12 +10,16 @@
 		388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */; };
 		388FD9A5297FAC8C00940AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */; };
 		388FD9A7297FAC8C00940AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A6297FAC8C00940AA3 /* ViewController.swift */; };
-		388FD9AA297FAC8C00940AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388FD9A8297FAC8C00940AA3 /* Main.storyboard */; };
 		388FD9AC297FAC8E00940AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388FD9AB297FAC8E00940AA3 /* Assets.xcassets */; };
 		388FD9AF297FAC8E00940AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388FD9AD297FAC8E00940AA3 /* LaunchScreen.storyboard */; };
 		388FD9BA297FAC8E00940AA3 /* DongSik_eTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9B9297FAC8E00940AA3 /* DongSik_eTests.swift */; };
 		388FD9C4297FAC8E00940AA3 /* DongSik_eUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9C3297FAC8E00940AA3 /* DongSik_eUITests.swift */; };
 		388FD9C6297FAC8E00940AA3 /* DongSik_eUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9C5297FAC8E00940AA3 /* DongSik_eUITestsLaunchTests.swift */; };
+		388FD9D5297FAD4900940AA3 /* SchoolMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9D4297FAD4900940AA3 /* SchoolMeal.swift */; };
+		388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9DE297FAFCD00940AA3 /* UIView+Constraints.swift */; };
+		388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */; };
+		388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E3297FB02500940AA3 /* StringLiteral.swift */; };
+		388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		388FD9A6297FAC8C00940AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		388FD9A9297FAC8C00940AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		388FD9AB297FAC8E00940AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388FD9AE297FAC8E00940AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388FD9B0297FAC8E00940AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		388FD9BF297FAC8E00940AA3 /* DongSik-eUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DongSik-eUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		388FD9C3297FAC8E00940AA3 /* DongSik_eUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSik_eUITests.swift; sourceTree = "<group>"; };
 		388FD9C5297FAC8E00940AA3 /* DongSik_eUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongSik_eUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		388FD9D4297FAD4900940AA3 /* SchoolMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMeal.swift; sourceTree = "<group>"; };
+		388FD9DE297FAFCD00940AA3 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		388FD9E3297FB02500940AA3 /* StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteral.swift; sourceTree = "<group>"; };
+		388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,9 @@
 		388FD9A1297FAC8C00940AA3 /* DongSik-e */ = {
 			isa = PBXGroup;
 			children = (
-				388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */,
-				388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */,
-				388FD9A6297FAC8C00940AA3 /* ViewController.swift */,
-				388FD9A8297FAC8C00940AA3 /* Main.storyboard */,
-				388FD9AB297FAC8E00940AA3 /* Assets.xcassets */,
-				388FD9AD297FAC8E00940AA3 /* LaunchScreen.storyboard */,
-				388FD9B0297FAC8E00940AA3 /* Info.plist */,
+				388FD9D2297FAD1400940AA3 /* Network */,
+				388FD9D6297FAD5300940AA3 /* Global */,
+				388FD9E7297FB05400940AA3 /* Screen */,
 			);
 			path = "DongSik-e";
 			sourceTree = "<group>";
@@ -125,6 +129,102 @@
 				388FD9C5297FAC8E00940AA3 /* DongSik_eUITestsLaunchTests.swift */,
 			);
 			path = "DongSik-eUITests";
+			sourceTree = "<group>";
+		};
+		388FD9D2297FAD1400940AA3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9D3297FAD1A00940AA3 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		388FD9D3297FAD1A00940AA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9D4297FAD4900940AA3 /* SchoolMeal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		388FD9D6297FAD5300940AA3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9D8297FAD5C00940AA3 /* Supports */,
+				388FD9DC297FAD9700940AA3 /* Resources */,
+				388FD9DA297FAD8100940AA3 /* Utils */,
+				388FD9D9297FAD6F00940AA3 /* Extensions */,
+				388FD9D7297FAD5700940AA3 /* Literals */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		388FD9D7297FAD5700940AA3 /* Literals */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9E3297FB02500940AA3 /* StringLiteral.swift */,
+				388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */,
+			);
+			path = Literals;
+			sourceTree = "<group>";
+		};
+		388FD9D8297FAD5C00940AA3 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */,
+				388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */,
+				388FD9B0297FAC8E00940AA3 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		388FD9D9297FAD6F00940AA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		388FD9DA297FAD8100940AA3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9DE297FAFCD00940AA3 /* UIView+Constraints.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		388FD9DC297FAD9700940AA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9AB297FAC8E00940AA3 /* Assets.xcassets */,
+				388FD9E8297FB09400940AA3 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		388FD9E7297FB05400940AA3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9E9297FB0AA00940AA3 /* SchoolMeal */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		388FD9E8297FB09400940AA3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9AD297FAC8E00940AA3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		388FD9E9297FB0AA00940AA3 /* SchoolMeal */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9A6297FAC8C00940AA3 /* ViewController.swift */,
+			);
+			path = SchoolMeal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +333,6 @@
 			files = (
 				388FD9AF297FAC8E00940AA3 /* LaunchScreen.storyboard in Resources */,
 				388FD9AC297FAC8E00940AA3 /* Assets.xcassets in Resources */,
-				388FD9AA297FAC8C00940AA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +359,11 @@
 			files = (
 				388FD9A7297FAC8C00940AA3 /* ViewController.swift in Sources */,
 				388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */,
+				388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */,
+				388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */,
+				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
+				388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */,
+				388FD9D5297FAD4900940AA3 /* SchoolMeal.swift in Sources */,
 				388FD9A5297FAC8C00940AA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		388FD9A8297FAC8C00940AA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				388FD9A9297FAC8C00940AA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		388FD9AD297FAC8E00940AA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,10 +535,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82DRSFKFS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DongSik-e/Info.plist";
+				INFOPLIST_FILE = "DongSik-e/Global/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +562,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 82DRSFKFS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DongSik-e/Info.plist";
+				INFOPLIST_FILE = "DongSik-e/Global/Supports/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
