@@ -1,0 +1,25 @@
+name: DongSik-e Swift-Builder
+
+on:
+  push:
+    branches: [ develop, main ]
+  pull_request:
+    branches: [ develop, release, hotfix ]
+
+# workflow의 실행은 하나 이상의 job으로 구성
+# 지금 이 workflow는 build라는 single job으로 구성
+jobs:
+  build:
+    # job이 실행될 환경: macos - 가장 최신버전
+    runs-on: macos-latest
+    
+    # step은 job의 일부, 실행될 task를 의미
+    steps:
+    # uses 키워드를 통해서 action에서 기본적으로 제공하는 액션을 사용하도록 함
+    - name: 👻Checkout Source Code👻
+      uses: actions/checkout@v2
+          
+    - name: 🍚 Start DongSik-e build 🛠
+      run: |
+        xcodebuild clean test -project ./DongSik-e/DongSik-e.xcodeproj -scheme DongSik-e -destination "platform=iOS Simulator,OS=16.0,name=iPhone 14 Pro" 
+        xcpretty --color --simple
