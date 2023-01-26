@@ -21,5 +21,6 @@ jobs:
           
     - name: 🍚 Start DongSik-e build 🛠
       run: |
-        xcodebuild clean test -project ./DongSik-e/DongSik-e.xcodeproj -scheme DongSik-e -destination "platform=iOS Simulator,OS=16.0,name=iPhone 14 Pro" 
+        xcodebuild clean test -project ./DongSik-e/DongSik-e.xcodeproj -scheme DongSik-e -destination "platform=iOS Simulator,OS=16.2,name=iPhone 14 Pro" 
         xcpretty --color --simple
+        
