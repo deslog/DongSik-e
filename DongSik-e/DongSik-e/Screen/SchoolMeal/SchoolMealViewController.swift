@@ -14,7 +14,7 @@ class SchoolMealViewController: UIViewController {
     private let descriptionLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "지금은 중식시간!"
+        label.text = StringLiteral.schoolMealDescriptionTitle
         label.setDynamicFont(for: .body)
         return label
     }()
@@ -30,7 +30,7 @@ class SchoolMealViewController: UIViewController {
     // MARK: - func
 
     private func setupNavigationBar() {
-        navigationItem.title = "🍚 동식이"
+        navigationItem.title = StringLiteral.appTitle
         navigationController?.navigationBar.prefersLargeTitles = true
     }
 
