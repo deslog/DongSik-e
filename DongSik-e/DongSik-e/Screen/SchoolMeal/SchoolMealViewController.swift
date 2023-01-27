@@ -18,6 +18,18 @@ class SchoolMealViewController: UIViewController {
         label.setDynamicFont(for: .body)
         return label
     }()
+    private lazy var categoryCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = 5
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.showsHorizontalScrollIndicator = false
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(cell: CategoryCollectionViewCell.self)
+        return collectionView
+    }()
 
     // MARK: - life cycle
 
