@@ -24,6 +24,7 @@
 		388FD9F32983A72B00940AA3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */; };
 		388FD9F52983A75000940AA3 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F42983A75000940AA3 /* UIFont+Extension.swift */; };
 		388FD9F72983A83200940AA3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F62983A83200940AA3 /* UIView+Extension.swift */; };
+		388FD9FC2983B67F00940AA3 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		388FD9F42983A75000940AA3 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		388FD9F62983A83200940AA3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */,
 				388FD9F42983A75000940AA3 /* UIFont+Extension.swift */,
 				388FD9F62983A83200940AA3 /* UIView+Extension.swift */,
+				388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */,
 				388FD9A5297FAC8C00940AA3 /* SceneDelegate.swift in Sources */,
 				388FD9F52983A75000940AA3 /* UIFont+Extension.swift in Sources */,
+				388FD9FC2983B67F00940AA3 /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
