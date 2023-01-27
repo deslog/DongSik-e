@@ -20,6 +20,7 @@
 		388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */; };
 		388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E3297FB02500940AA3 /* StringLiteral.swift */; };
 		388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */; };
+		388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9ED29838F6300940AA3 /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		388FD9E3297FB02500940AA3 /* StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteral.swift; sourceTree = "<group>"; };
 		388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
+		388FD9ED29838F6300940AA3 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		388FD9E7297FB05400940AA3 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				388FD9EC29838F4100940AA3 /* Tabbar */,
 				388FD9E9297FB0AA00940AA3 /* SchoolMeal */,
 			);
 			path = Screen;
@@ -225,6 +228,14 @@
 				388FD9A6297FAC8C00940AA3 /* ViewController.swift */,
 			);
 			path = SchoolMeal;
+			sourceTree = "<group>";
+		};
+		388FD9EC29838F4100940AA3 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9ED29838F6300940AA3 /* TabbarController.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +375,7 @@
 				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
 				388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */,
 				388FD9D5297FAD4900940AA3 /* SchoolMeal.swift in Sources */,
+				388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */,
 				388FD9A5297FAC8C00940AA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
