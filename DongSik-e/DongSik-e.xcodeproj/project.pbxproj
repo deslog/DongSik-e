@@ -21,6 +21,7 @@
 		388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */; };
 		388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9ED29838F6300940AA3 /* TabbarController.swift */; };
 		388FD9F129839A2B00940AA3 /* SchoolMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */; };
+		388FD9F32983A72B00940AA3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */; };
 		388FD9F52983A75000940AA3 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F42983A75000940AA3 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
 		388FD9ED29838F6300940AA3 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealViewController.swift; sourceTree = "<group>"; };
+		388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		388FD9F42983A75000940AA3 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				388FD9E1297FB01400940AA3 /* UIColor+Extension.swift */,
+				388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */,
 				388FD9F42983A75000940AA3 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
@@ -373,6 +376,7 @@
 			files = (
 				388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */,
 				388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */,
+				388FD9F32983A72B00940AA3 /* UILabel+Extension.swift in Sources */,
 				388FD9F129839A2B00940AA3 /* SchoolMealViewController.swift in Sources */,
 				388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */,
 				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
