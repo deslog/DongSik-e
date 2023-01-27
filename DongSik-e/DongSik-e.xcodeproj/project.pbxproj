@@ -24,6 +24,7 @@
 		388FD9F32983A72B00940AA3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */; };
 		388FD9F52983A75000940AA3 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F42983A75000940AA3 /* UIFont+Extension.swift */; };
 		388FD9F72983A83200940AA3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F62983A83200940AA3 /* UIView+Extension.swift */; };
+		388FD9FA2983B18F00940AA3 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */; };
 		388FD9FC2983B67F00940AA3 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */; };
 		388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		388FD9F22983A72B00940AA3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		388FD9F42983A75000940AA3 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		388FD9F62983A83200940AA3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -240,6 +242,7 @@
 		388FD9E9297FB0AA00940AA3 /* SchoolMeal */ = {
 			isa = PBXGroup;
 			children = (
+				388FD9F82983B17000940AA3 /* Cells */,
 				388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */,
 			);
 			path = SchoolMeal;
@@ -251,6 +254,14 @@
 				388FD9ED29838F6300940AA3 /* TabbarController.swift */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		388FD9F82983B17000940AA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +401,7 @@
 				388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */,
 				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
 				388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */,
+				388FD9FA2983B18F00940AA3 /* CategoryCollectionViewCell.swift in Sources */,
 				388FD9F72983A83200940AA3 /* UIView+Extension.swift in Sources */,
 				388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */,
 				388FD9D5297FAD4900940AA3 /* SchoolMeal.swift in Sources */,
