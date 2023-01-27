@@ -9,6 +9,9 @@ import UIKit
 
 class SchoolMealViewController: UIViewController {
 
+    // TODO: - 임시데이터, 추후 삭제 될 예정입니다.
+    let schoolMealList = ["즐겨찾기", "전체", "상록원", "그루터기", "남산학사", "가든쿡"]
+
     // MARK: - property
 
     private let descriptionLabel: UILabel = {
@@ -47,10 +50,15 @@ class SchoolMealViewController: UIViewController {
     }
 
     private func setupLayout() {
-        view.addSubviews(descriptionLabel)
+        view.addSubviews(descriptionLabel, categoryCollectionView)
         NSLayoutConstraint.activate([
             descriptionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
-            descriptionLabel.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 16)
+            descriptionLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16),
+
+            categoryCollectionView.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
+            categoryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            categoryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            categoryCollectionView.heightAnchor.constraint(equalToConstant: 26)
         ])
     }
 }
