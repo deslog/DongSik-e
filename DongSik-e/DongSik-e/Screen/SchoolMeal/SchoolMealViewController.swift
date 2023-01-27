@@ -11,6 +11,13 @@ class SchoolMealViewController: UIViewController {
 
     // MARK: - property
 
+    private let descriptionLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "지금은 중식시간!"
+        label.setDynamicFont(for: .body)
+        return label
+    }()
 
 
     // MARK: - life cycle
@@ -18,6 +25,7 @@ class SchoolMealViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        setupLayout()
     }
 
     // MARK: - func
@@ -25,6 +33,13 @@ class SchoolMealViewController: UIViewController {
     private func setupNavigationBar() {
         navigationItem.title = "🍚 동식이"
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.largeTitleDisplayMode = .never
+    }
+
+    private func setupLayout() {
+        view.addSubviews(descriptionLabel)
+        NSLayoutConstraint.activate([
+            descriptionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            descriptionLabel.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 16)
+        ])
     }
 }
