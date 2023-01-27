@@ -45,8 +45,17 @@ class TabbarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configureUI()
     }
 
     // MARK: - func
+
+    private func configureUI() {
+        viewControllers = [schoolMealViewController,
+                           dongSikDangViewController,
+                           reportViewController,
+                           myViewController]
+        // TODO: - color set 생성되면 적용해주어야합니다.
+        self.tabBar.tintColor = .orange
+    }
 }
