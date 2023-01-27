@@ -56,6 +56,6 @@ class TabbarController: UITabBarController {
                            reportViewController,
                            myViewController]
         // TODO: - color set 생성되면 적용해주어야합니다.
-        self.tabBar.tintColor = .orange
+        tabBar.tintColor = .orange
     }
 }
