@@ -54,3 +54,25 @@ class SchoolMealViewController: UIViewController {
         ])
     }
 }
+
+// MARK: - UICollectionViewDataSource
+extension SchoolMealViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return schoolMealList.count
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoryCollectionViewCell.className, for: indexPath) as? CategoryCollectionViewCell else { return UICollectionViewCell() }
+        cell.setData(with: schoolMealList[indexPath.item])
+        cell.contentView.isUserInteractionEnabled = false
+        return cell
+    }
+}
+
+// MARK: - UICollectionViewDelegateFlowLayout
+extension SchoolMealViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        // TODO: - cell 크기 조절해서 넣어주어야함 (라벨 크기에 맞춰서 계산 필요)
+        return CGSize(width: 81, height: 26)
+    }
+}
