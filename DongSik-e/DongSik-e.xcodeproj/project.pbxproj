@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */; };
 		388FD9A5297FAC8C00940AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */; };
-		388FD9A7297FAC8C00940AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9A6297FAC8C00940AA3 /* ViewController.swift */; };
 		388FD9AC297FAC8E00940AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388FD9AB297FAC8E00940AA3 /* Assets.xcassets */; };
 		388FD9AF297FAC8E00940AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388FD9AD297FAC8E00940AA3 /* LaunchScreen.storyboard */; };
 		388FD9BA297FAC8E00940AA3 /* DongSik_eTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9B9297FAC8E00940AA3 /* DongSik_eTests.swift */; };
@@ -44,7 +43,6 @@
 		388FD99F297FAC8C00940AA3 /* DongSik-e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DongSik-e.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		388FD9A2297FAC8C00940AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		388FD9A4297FAC8C00940AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		388FD9A6297FAC8C00940AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		388FD9AB297FAC8E00940AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388FD9AE297FAC8E00940AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388FD9B0297FAC8E00940AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -225,7 +223,6 @@
 		388FD9E9297FB0AA00940AA3 /* SchoolMeal */ = {
 			isa = PBXGroup;
 			children = (
-				388FD9A6297FAC8C00940AA3 /* ViewController.swift */,
 			);
 			path = SchoolMeal;
 			sourceTree = "<group>";
@@ -368,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388FD9A7297FAC8C00940AA3 /* ViewController.swift in Sources */,
 				388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */,
 				388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */,
 				388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */,
