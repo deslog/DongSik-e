@@ -14,28 +14,28 @@ class TabbarController: UITabBarController {
     private let schoolMealViewController: UINavigationController = {
         // TODO: - 뷰컨트롤러는 임시로 넣어두었습니다.
         let viewController = SchoolMealViewController()
-        let tabBarItem = UITabBarItem(title: "학식", image: UIImage(systemName: "building.columns"), tag: 0)
+        let tabBarItem = UITabBarItem(title: "학식", image: ImageLiteral.schoolMealTab, tag: 0)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
     }()
     private let dongSikDangViewController: UINavigationController = {
         let viewController = SchoolMealViewController()
-        let tabBarItem = UITabBarItem(title: "동식당", image: UIImage(systemName: "fork.knife"), tag: 1)
+        let tabBarItem = UITabBarItem(title: "동식당", image: ImageLiteral.dongSikDangTab, tag: 1)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
     }()
     private let reportViewController: UINavigationController = {
         let viewController = SchoolMealViewController()
-        let tabBarItem = UITabBarItem(title: "제보하기", image: UIImage(systemName: "pencil"), tag: 2)
+        let tabBarItem = UITabBarItem(title: "제보하기", image: ImageLiteral.reportTab, tag: 2)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
     }()
     private let myViewController: UINavigationController = {
         let viewController = SchoolMealViewController()
-        let tabBarItem = UITabBarItem(title: "My", image: UIImage(systemName: "person"), tag: 3)
+        let tabBarItem = UITabBarItem(title: "My", image: ImageLiteral.myTab, tag: 3)
         viewController.tabBarItem = tabBarItem
         let navigationView = UINavigationController(rootViewController: viewController)
         return navigationView
