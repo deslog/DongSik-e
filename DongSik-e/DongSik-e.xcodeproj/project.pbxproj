@@ -20,6 +20,7 @@
 		388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E3297FB02500940AA3 /* StringLiteral.swift */; };
 		388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */; };
 		388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9ED29838F6300940AA3 /* TabbarController.swift */; };
+		388FD9F129839A2B00940AA3 /* SchoolMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		388FD9E3297FB02500940AA3 /* StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteral.swift; sourceTree = "<group>"; };
 		388FD9E5297FB02C00940AA3 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
 		388FD9ED29838F6300940AA3 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		388FD9E9297FB0AA00940AA3 /* SchoolMeal */ = {
 			isa = PBXGroup;
 			children = (
+				388FD9F029839A2B00940AA3 /* SchoolMealViewController.swift */,
 			);
 			path = SchoolMeal;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			files = (
 				388FD9A3297FAC8C00940AA3 /* AppDelegate.swift in Sources */,
 				388FD9E4297FB02500940AA3 /* StringLiteral.swift in Sources */,
+				388FD9F129839A2B00940AA3 /* SchoolMealViewController.swift in Sources */,
 				388FD9DF297FAFCD00940AA3 /* UIView+Constraints.swift in Sources */,
 				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
 				388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */,
