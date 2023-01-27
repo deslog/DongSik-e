@@ -19,7 +19,6 @@ class SchoolMealViewController: UIViewController {
         return label
     }()
 
-
     // MARK: - life cycle
 
     override func viewDidLoad() {
