@@ -17,8 +17,8 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
         label.textAlignment = .center
         label.setDynamicFont(.subheadline)
         // TODO: - color set이 지정되면, 변경해야합니다.
-        label.textColor = .white
-        label.backgroundColor = .black
+        label.textColor = .black
+        label.backgroundColor = .white
         return label
     }()
 
@@ -51,11 +51,16 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
 
         contentView.layer.cornerRadius = min(cellWidth, cellHeight) / 2
         contentView.layer.masksToBounds = true
+        contentView.layer.borderWidth = 0.01
+        // TODO: - color set이 지정되면, 변경해야합니다.
+        contentView.layer.borderColor = UIColor.gray.cgColor
 
-        layer.shadowOffset = CGSize(width: 10, height: 10)
-        layer.shadowOpacity = 0.5
-        layer.shadowRadius = 4
-        layer.masksToBounds = false
+        layer.makeShadow(color: .black,
+                         opacity: 0.08,
+                         offset: CGSize(width: -2, height: -2),
+                         radius: 4,
+                         buttonTitle: label,
+                         buttonHeight: cellHeight)
     }
 
     private func setupLayout() {

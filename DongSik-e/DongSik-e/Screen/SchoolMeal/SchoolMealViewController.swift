@@ -58,7 +58,7 @@ class SchoolMealViewController: UIViewController {
             categoryCollectionView.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
             categoryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             categoryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            categoryCollectionView.heightAnchor.constraint(equalToConstant: CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: nil))
+            categoryCollectionView.heightAnchor.constraint(equalToConstant: CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: nil) + 20)
         ])
     }
 }
