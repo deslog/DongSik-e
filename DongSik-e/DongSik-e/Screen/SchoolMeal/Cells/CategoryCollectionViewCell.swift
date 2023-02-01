@@ -19,8 +19,6 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
         // TODO: - color set이 지정되면, 변경해야합니다.
         label.textColor = .white
         label.clipsToBounds = true
-        // TODO: - corner radius 계산해서 넣어주어야함
-        label.layer.cornerRadius = 10
         label.backgroundColor = .black
         return label
     }()
@@ -40,11 +38,13 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
     // MARK: - func
 
     func setData(with category: String) {
+        let cellWidth = CalculateSizeManager().calculateCategoryButton(.widthAnchor, with: category)
+        let cellHeight = CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: category)
+
         categoryLabel.text = category
-        categoryLabel.constraint(.heightAnchor,
-                                 constant: CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: category))
-        categoryLabel.constraint(.widthAnchor,
-                                 constant: CalculateSizeManager().calculateCategoryButton(.widthAnchor, with: category))
+        categoryLabel.layer.cornerRadius = min(cellWidth, cellHeight) / 2
+        categoryLabel.constraint(.widthAnchor, constant: cellWidth)
+        categoryLabel.constraint(.heightAnchor, constant: cellHeight)
     }
 
     private func setupLayout() {
