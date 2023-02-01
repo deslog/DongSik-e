@@ -58,7 +58,7 @@ class SchoolMealViewController: UIViewController {
             categoryCollectionView.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
             categoryCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             categoryCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            categoryCollectionView.heightAnchor.constraint(equalToConstant: 26)
+            categoryCollectionView.heightAnchor.constraint(equalToConstant: CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: nil))
         ])
     }
 }
@@ -80,7 +80,8 @@ extension SchoolMealViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegateFlowLayout
 extension SchoolMealViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        // TODO: - cell 크기 조절해서 넣어주어야함 (라벨 크기에 맞춰서 계산 필요)
-        return CGSize(width: 81, height: 26)
+        let width = CalculateSizeManager().calculateCategoryButton(.widthAnchor, with: schoolMealList[indexPath.item])
+        let height = CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: schoolMealList[indexPath.item])
+        return CGSize(width: width, height: height)
     }
 }

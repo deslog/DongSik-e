@@ -41,6 +41,10 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
 
     func setData(with category: String) {
         categoryLabel.text = category
+        categoryLabel.constraint(.heightAnchor,
+                                 constant: CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: category))
+        categoryLabel.constraint(.widthAnchor,
+                                 constant: CalculateSizeManager().calculateCategoryButton(.widthAnchor, with: category))
     }
 
     private func setupLayout() {
