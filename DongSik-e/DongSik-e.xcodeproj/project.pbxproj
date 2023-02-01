@@ -27,6 +27,7 @@
 		388FD9FA2983B18F00940AA3 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */; };
 		388FD9FC2983B67F00940AA3 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */; };
 		388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */; };
+		388FDA08298791E200940AA3 /* CalculateSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FDA07298791E200940AA3 /* CalculateSizeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		388FD9FB2983B67F00940AA3 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		388FDA07298791E200940AA3 /* CalculateSizeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateSizeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 		388FD9DA297FAD8100940AA3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				388FDA06298791CC00940AA3 /* Manager */,
 				388FD9DE297FAFCD00940AA3 /* UIView+Constraints.swift */,
 			);
 			path = Utils;
@@ -262,6 +265,14 @@
 				388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		388FDA06298791CC00940AA3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				388FDA07298791E200940AA3 /* CalculateSizeManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +414,7 @@
 				388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */,
 				388FD9FA2983B18F00940AA3 /* CategoryCollectionViewCell.swift in Sources */,
 				388FD9F72983A83200940AA3 /* UIView+Extension.swift in Sources */,
+				388FDA08298791E200940AA3 /* CalculateSizeManager.swift in Sources */,
 				388FD9E6297FB02C00940AA3 /* ImageLiteral.swift in Sources */,
 				388FD9D5297FAD4900940AA3 /* SchoolMeal.swift in Sources */,
 				388FD9EE29838F6300940AA3 /* TabbarController.swift in Sources */,
