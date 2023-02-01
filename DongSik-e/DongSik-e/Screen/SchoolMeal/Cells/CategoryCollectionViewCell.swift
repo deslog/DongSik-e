@@ -18,7 +18,6 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
         label.setDynamicFont(.subheadline)
         // TODO: - color set이 지정되면, 변경해야합니다.
         label.textColor = .white
-        label.clipsToBounds = true
         label.backgroundColor = .black
         return label
     }()
@@ -42,9 +41,21 @@ final class CategoryCollectionViewCell: UICollectionViewCell {
         let cellHeight = CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: category)
 
         categoryLabel.text = category
-        categoryLabel.layer.cornerRadius = min(cellWidth, cellHeight) / 2
         categoryLabel.constraint(.widthAnchor, constant: cellWidth)
         categoryLabel.constraint(.heightAnchor, constant: cellHeight)
+    }
+
+    func configureUI(with label: String) {
+        let cellWidth = CalculateSizeManager().calculateCategoryButton(.widthAnchor, with: label)
+        let cellHeight = CalculateSizeManager().calculateCategoryButton(.heightAnchor, with: label)
+
+        contentView.layer.cornerRadius = min(cellWidth, cellHeight) / 2
+        contentView.layer.masksToBounds = true
+
+        layer.shadowOffset = CGSize(width: 10, height: 10)
+        layer.shadowOpacity = 0.5
+        layer.shadowRadius = 4
+        layer.masksToBounds = false
     }
 
     private func setupLayout() {

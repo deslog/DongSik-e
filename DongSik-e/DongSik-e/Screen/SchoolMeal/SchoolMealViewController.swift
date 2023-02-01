@@ -72,6 +72,7 @@ extension SchoolMealViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoryCollectionViewCell.className, for: indexPath) as? CategoryCollectionViewCell else { return UICollectionViewCell() }
         cell.setData(with: schoolMealList[indexPath.item])
+        cell.configureUI(with: schoolMealList[indexPath.item])
         cell.contentView.isUserInteractionEnabled = false
         return cell
     }
