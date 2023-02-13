@@ -30,6 +30,7 @@
 		388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */; };
 		388FDA08298791E200940AA3 /* CalculateSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FDA07298791E200940AA3 /* CalculateSizeManager.swift */; };
 		388FDA18298A8C7D00940AA3 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FDA17298A8C7D00940AA3 /* CALayer+Extension.swift */; };
+		388FDA1A298A972200940AA3 /* MealMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FDA19298A972200940AA3 /* MealMenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		388FD9FE2983B6EB00940AA3 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		388FDA07298791E200940AA3 /* CalculateSizeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateSizeManager.swift; sourceTree = "<group>"; };
 		388FDA17298A8C7D00940AA3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		388FDA19298A972200940AA3 /* MealMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				388FD9F92983B18F00940AA3 /* CategoryCollectionViewCell.swift */,
+				388FDA19298A972200940AA3 /* MealMenuTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				388FD9E2297FB01400940AA3 /* UIColor+Extension.swift in Sources */,
 				3805174F299A47CE002F7748 /* UIStackView+Extension.swift in Sources */,
 				388FD9FF2983B6EB00940AA3 /* UICollectionView+Extension.swift in Sources */,
+				388FDA1A298A972200940AA3 /* MealMenuTableViewCell.swift in Sources */,
 				388FD9FA2983B18F00940AA3 /* CategoryCollectionViewCell.swift in Sources */,
 				388FD9F72983A83200940AA3 /* UIView+Extension.swift in Sources */,
 				388FDA08298791E200940AA3 /* CalculateSizeManager.swift in Sources */,
